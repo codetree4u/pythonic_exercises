@@ -21,8 +21,6 @@ Expected Output
 6
 """
 
-# Replace ___ with your code
-
 # create the function
 def multiply_numbers(*args):
     product = 1
