@@ -28,3 +28,25 @@ Expected Output
 8
 
 """
+
+# create the class
+class Square:
+    def __init__(self, length):
+    # define the __init__() method
+        self.length = length
+  
+    # define the compute_area() method
+    def compute_area(self):
+        print(length * length)
+    # define the compute_perimeter() method
+    def compute_perimeter(self):
+        print(4 * length)
+# get integer input
+length = int(input())
+# create an object of Square    
+obj_sq = Square(length)
+# call compute_area() and print the area
+obj_sq.compute_area()
+# call compute_perimeter() and print the perimeter
+obj_sq.compute_perimeter()
+
